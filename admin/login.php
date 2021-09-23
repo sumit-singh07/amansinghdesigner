@@ -7,7 +7,7 @@
     
     if($_POST['submit'])
     {
-        if($uname == "admin" && $pass == "Aman#8866")
+        if($uname == "****" && $pass == "****")
         {
             $_SESSION["admin_name"] = $uname;
             header('location:index.php');
